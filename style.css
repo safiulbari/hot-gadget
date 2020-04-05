@@ -12,3 +12,30 @@ body{
 .nav-item {
     margin-right: 20px;
 }
+
+.carousel-indicators li {
+    background-color: #CECECE;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid #CECECE;
+    width: 1%;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    border-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    width: 4%;
+}
+
+.btn{
+    background-color: #333!important;
+    color: white!important;
+}

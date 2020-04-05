@@ -1,10 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .my-header{
     padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
+    
+
     background-image: url("img/background/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 100px;
 
+}
+h1,h2,h6{
+    font-weight: 600;
+}
+p{
+    color: grey !important;
 }
 .my-nav{
     background-color: white !important;
@@ -42,3 +53,22 @@
     background-color: #333!important;
     color: white!important;
 }
+
+.smartphone {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.see{
+    color: orange;
+}
+
+.card {
+    border: none;
+    text-align: center;
+}
+.card-title{
+    font-weight: 700;
+}
+

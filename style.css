@@ -1,0 +1,14 @@
+body{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.my-nav{
+    background-color: white !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
